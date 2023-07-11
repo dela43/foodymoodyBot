@@ -1,0 +1,105 @@
+@import url('link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background-color: hsla(300, 32%, 88%, 0.897);
+}
+
+#app {
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 130px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.top-header{
+    background-image:url('image/Ice2.jpg');
+    background-size: cover;
+    height: 490pt;
+    text-align: right;
+    box-shadow: 0 4px 8px 0 rgba(204, 88, 0, 0.251);
+    border-radius: 3px;
+ 
+}
+
+.icons img{
+    width: 125px;
+    height: 125px;
+	float: left;
+	margin-top: 0%;
+}
+
+nav a{
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: 400px;
+    color: #fff;
+    font-size: 35px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+    font-family: 'Dancing Script', cursive;
+    line-height: 130px;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.card img{
+    float: left;
+    width: 450px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,204, 0.3);
+}
+
+h1 {
+    color: #a3849d;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    margin-top: 5px;
+}
+
+.card p{
+    font-family: 'Edu QLD Beginner', cursive;
+    color: #5b3e55;
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 470px;
+    margin-right: 20px;
+}
+
+
+
+.thumb {
+    width: 200px;
+    float: left;
+    border: 2px solid #2A3132;
+    box-sizing: border-box;
+    
+}
+
+.thumbnail img{
+    width: 410px;
+}
+
+.thumb:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+

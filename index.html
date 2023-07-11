@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewprot" content="width=device-width, initial-scale=1">
+        <title>Foody Moody </title>
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="Script.js" defer></script>
+    </head>
+
+    <body>
+        <header class="top-header">
+                <div class="icons">
+                    <img src="assets/Ikon/chef.png">
+                </div>
+    
+            <nav class="menu">
+                <li><a href="#Home">Home</a></li>
+            </nav>
+            <div id="app"></div>
+
+        </header>
+
+
+        <main>
+            <div id="content">
+                <article id="Home" class="card">
+                    <img src="assets/image/carousel-2.jpg">
+
+                    <h1 id="Home">Foody Moody Bot</h1>
+                    <p>
+                        Foody Moody adalah chatbot inovatif yang dirancang untuk merevolusi pengalaman kuliner Anda dengan memberikan rekomendasi makanan yang 
+                        dipersonalisasi berdasarkan suasana hati Anda saat ini.Berinteraksi dengan Foody Moody semudah seperti anda bercakap-cakap dengan teman. Cukup ungkapkan suasana hati Anda,
+                        dan Foody Moody akan memanfaatkan algoritme canggihnya untuk menganalisis emosi Anda dan memberikan rekomendasi makanan yang disesuaikan.
+                </article>
+
+
+                 <aside id="Identitas" class="content">
+                    <script>
+                        window.watsonAssistantChatOptions = {
+                          integrationID: "dceb7588-58be-4aac-b05d-9e116215b43a", // The ID of this integration.
+                          region: "au-syd", // The region your integration is hosted in.
+                          serviceInstanceID: "9fb060f5-9677-4f98-b699-07a00e071a2a", // The ID of your service instance.
+                          onLoad: function(instance) { instance.render(); }
+                        };
+                        setTimeout(function(){
+                          const t=document.createElement('script');
+                          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+                          document.head.appendChild(t);
+                        });
+                      </script>
+                 </aside>
+            </div>
+        </main>
+    
+    </body>
+</html>
